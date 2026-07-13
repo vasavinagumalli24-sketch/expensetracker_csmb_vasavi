@@ -4,7 +4,7 @@ dns.setServers(["8.8.8.8","8.8.4.4"])
 
 function connectDB() {
 
-    mongoose.connect("mongodb+srv://sankersiddu_db_user:Siddu037@cluster0.h7kry9f.mongodb.net/Sanker");
+    mongoose.connect("mongodb+srv://vasavinagumalli24_db_user:(vasavi@123)@cluster0.twzyu3h.mongodb.net/vasavi?appname=cluster0");
 
     mongoose.connection.on("connected", function () {
         console.log("MongoDB Connected");
